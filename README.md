@@ -2,7 +2,7 @@
 SOC / DFIR CTF investigations portfolio with hands on lab cases covering SIEM alert triage, Phishing Analysis, Malware analysis, Endpoint detection, Network Analysis. Built to demonstrate practical SOC Analyst L1/L2 and DFIR skills.
 
 ## SOC Investigations Portfolio
-This repository contains hands-on SOC investigations performed in a simulated and lab-based environment.Also completed different types of CTF Challenges form Various platform like TryHackme,BlueTeam Lab Online 
+This repository contains hands-on SOC investigations performed in a simulated and lab-based environment.Also completed different types of CTF Challenges form Various platform like TryHackme and BlueTeam Lab Online.
 
 ## Covered Areas
 - Malware Analysis
