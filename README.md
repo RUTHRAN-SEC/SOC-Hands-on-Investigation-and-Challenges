@@ -33,6 +33,7 @@ Each investigation focuses on:
 
 ### Network & Traffic Analysis
 + Wireshark
++ Tcpdump
 
 ### Malware & Sandbox Analysis
 
