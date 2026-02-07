@@ -3,7 +3,7 @@
 A hands-on SOC / DFIR investigation portfolio showcasing real-world style lab investigations and Capture The Flag (CTF) challenges.
 Focused on SIEM alert triage, phishing analysis, malware analysis, endpoint detection, and network traffic analysis.
 
-Built to demonstrate practical SOC Analyst L1/L2 and DFIR skills, not just theory.
+Built to demonstrate practical SOC Analyst L1/L2 and DFIR skills.
 
 ## About This Repository
 
