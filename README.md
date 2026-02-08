@@ -53,9 +53,9 @@ Each investigation focuses on:
 + MITRE ATT&CK
 
 ### Email & Phishing Analysis
-+Message Header Analyzer
-PhishTool
-Email Header Analysis
++ Message Header Analyzer
++ PhishTool
++ Email Header Analysis
 
 ### Utilities
 + CyberChef
