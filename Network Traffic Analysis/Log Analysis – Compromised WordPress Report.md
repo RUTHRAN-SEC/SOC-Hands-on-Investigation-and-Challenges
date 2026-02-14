@@ -78,6 +78,7 @@ cat access.log | grep 'token' | head
 
 Answer:/wp-login.php?itsec-hb-token=adminlogin
 
+--- 
 
 2.Can you find two tools the attacker used?
 
@@ -87,6 +88,7 @@ We have already filtered the user agent, Which is in useragent.txt
 
 Answer: WPScan, sqlmap
 
+--- 
 
 3.The attacker tried to exploit a vulnerability in ‘Contact Form 7’. What CVE was the plugin vulnerable to? (Do some research!)
 
@@ -96,6 +98,7 @@ Just Used Google to search “CVE of Contact form 7”
 
 Answer: CVE-2020-35489
 
+--- 
 
 4.What plugin was exploited to get access? 
 
@@ -107,6 +110,7 @@ Searched in google “simple file list plugin version”
 
 Answer: Simple File list 4.2.2
 
+--- 
 
 5.What is the name of the PHP web shell file?
 
@@ -122,6 +126,7 @@ The fr34k.php file seems to be a malicious php code
 
 Answer: fr34k.php
 
+--- 
 
 6.What was the HTTP response code provided when the web shell was accessed for the final time?
 
