@@ -1,4 +1,4 @@
-#   SOC Hands-On Investigations & DFIR CTF Portfolio
+#   SOC Hands On Investigations & DFIR Portfolio
  
 A hands-on SOC / DFIR investigation portfolio showcasing real-world style lab investigations and Capture The Flag (CTF) challenges.
 Focused on SIEM alert triage, phishing analysis, malware analysis, endpoint detection, and network traffic analysis.
