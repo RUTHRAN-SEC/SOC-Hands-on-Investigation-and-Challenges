@@ -38,7 +38,8 @@ Immediate investigation is required to identify the malware, trace attacker acti
 ## Tools Used
 
 - Virus total
-- sdvs
+- Kaspersky Threat Intelligence Portal
+- Threat Intelligence Reports
 
 ## Given Files
 
