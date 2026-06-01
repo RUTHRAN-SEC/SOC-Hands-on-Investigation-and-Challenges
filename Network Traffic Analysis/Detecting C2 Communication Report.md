@@ -74,4 +74,26 @@ The text field contains the flag for the challenge
 
 Answer: THM{SECRET__CODE}
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | **T1197** | **BITS Jobs** |
+| Persistence | T1133 | **External Remote Services** |
+| Privilege Escalation | - | - |
+| Stealth | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | T1005 | **Data from Local System** |
+| Command and Control | T1071.001 | **Application Layer Protocol: Web Protocols** |
+| Exfiltration | T1041 | **Exfiltration Over C2 Channel** |
+| Impact | - | - |
+
+### DONE BY
+
+#### RUTHRAN-SEC
