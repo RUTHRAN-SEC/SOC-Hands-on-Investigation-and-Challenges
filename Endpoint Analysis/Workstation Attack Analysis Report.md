@@ -462,4 +462,25 @@ We know that attacker is in Tempest Computer system we filter the executable fie
 
 Answer: C:\Windows\system32\sc.exe \\TEMPEST create TempestUpdate2 binpath= C:\ProgramData\final.exe start= auto
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | **T1598.002** | **Phishing for Information: Spearphishing Attachment** |
+| Resource Development | **T1587.001** | **Develop Capabilities: Malware** |
+| Initial Access | **T1566.001** | **Phishing: Spearphishing Attachment** |
+| Execution | **T1204.002** | **User Execution: Malicious File** |
+| Persistence | **T1547.001** | **Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder** |
+| Privilege Escalation | **T1098.007** | **Account Manipulation: Additional Local or Domain Groups** |
+| Defense Impairment | **T1140** | **Deobfuscate/Decode Files or Information** |
+| Credential Access | **T1555** | **Credentials from Password Stores** |
+| Discovery | **T1087** | **Account Discovery** |
+| Lateral Movement | **T1570** | **Lateral Tool Transfer** |
+| Collection | **T1005** | **Data from Local System** |
+| Command and Control | **T1071.001** | **Application Layer Protocol: Web Protocols** |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+### DONE BY
+
+#### RUTHRAN-SEC
