@@ -172,4 +172,25 @@ using cyberchef to output as a .kdbx after decode form hex. Used keepass to open
 
 Answer: 4024007128269551
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1598.002 | **Phishing for Information: Spearphishing Attachment** |
+| Resource Development | T1583.002 | **Acquire Infrastructure: DNS Server** |
+| Initial Access | T1566.001 | **Phishing: Spearphishing Attachment** |
+| Execution | T1059.001 | **Command and Scripting Interpreter: PowerShell** |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | T1140 | **Deobfuscate/Decode Files or Information** |
+| Credential Access | T1555.005 | **Credentials from Password Stores: Password Managers** |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | T1119 | **Automated Collection** |
+| Command and Control | T1071.004 | **Application Layer Protocol: DNS** |
+| Exfiltration | T1020.001 | **Automated Exfiltration: Traffic Duplication** |
+| Impact | T1657 | **Financial Theft** |
+
+### DONE BY
+
+#### RUTHRAN-SEC
