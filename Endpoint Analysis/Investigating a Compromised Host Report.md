@@ -128,4 +128,25 @@ View CommandLine that was the URL infected host connected to
 
 Answer: https://controlc.com/e4d11035
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | **T1591.004** | **Gather Victim Org Information: Identify Roles** |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | **T1105** | **Ingress Tool Transfer** |
+| Persistence | **T1053.005** | **Scheduled Task/Job: Scheduled Task** |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | **T1570** | **Lateral Tool Transfer** |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+### DONE BY
+
+#### RUTHRAN-SEC
