@@ -163,4 +163,25 @@ Answer: backupda
 
 Answer: http://ff.sillytechninja.io/ransomboogey.exe
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1598 | **Phishing for Information** |
+| Resource Development | T1587.001 | **Develop Capabilities: Malware** |
+| Initial Access | T1566.001 | **Phishing: Spearphishing Attachment** |
+| Execution | T1204.002 | **User Execution: Malicious File** |
+| Persistence | T1053.005 | **Scheduled Task/Job: Scheduled Task** |
+| Privilege Escalation | T1548.002 | **Abuse Elevation Control Mechanism: Bypass User Account Control** |
+| Defense Impairment | T1218.011 | **System Binary Proxy Execution: Rundll32** |
+| Credential Access | T1003.001 | **OS Credential Dumping: LSASS Memory** |
+| Discovery | T1033 | **System Owner/User Discovery** |
+| Lateral Movement | T1570 | **Lateral Tool Transfer** |
+| Collection | T1039 | **Data from Network Shared Drive** |
+| Command and Control | T1105 | **Ingress Tool Transfer** |
+| Exfiltration | T1041 | **Exfiltration Over C2 Channel** |
+| Impact | T1486 | **Data Encrypted for Impact** |
+
+### DONE BY
+
+#### RUTHRAN-SEC
