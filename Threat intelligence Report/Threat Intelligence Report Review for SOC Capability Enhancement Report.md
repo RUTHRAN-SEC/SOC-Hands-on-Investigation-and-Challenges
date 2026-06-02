@@ -98,4 +98,25 @@ Searched with “RDP”
 
 Answer: MFA
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1598 | **Phishing for Information** |
+| Resource Development | T1588.001 | **Obtain Capabilities: Malware** |
+| Initial Access | T1566.001 | **Phishing: Spearphishing Attachment** |
+| Initial Access | T1190 | **Exploit Public-Facing Application** |
+| Execution | T1059 | **Command and Scripting Interpreter** |
+| Execution | T1059.007 | **JavaScript** |
+| Execution | T1059.005 | **Visual Basic** |
+| Privilege Escalation | T1068 | **Exploitation for Privilege Escalation** |
+| Defense Evasion | T1218.010 | **System Binary Proxy Execution: Regsvr32** |
+| Discovery | T1082 | **System Information Discovery** |
+| Credential Access | T1003 | **OS Credential Dumping** |
+| Lateral Movement | T1021.001 | **Remote Services: RDP** |
+| Impact | T1486 | **Data Encrypted for Impact** |
+| Impact | T1498 | **Network Denial of Service** |
+
+### DONE BY
+
+#### RUTHRAN-SEC
