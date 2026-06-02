@@ -392,3 +392,26 @@ And the next exfiltration happened on 20:48
 So that is approximately 10 minutes of exfiltration happened 
 
 Answer: 10
+
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | T1587.001 | Develop Capabilities: Malware |
+| Initial Access | T1566.001 | Phishing: Spearphishing Attachment |
+| Execution | T1204.002 | User Execution: Malicious File |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Evasion | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+## DONE BY
+
+### RUTHRAN-SEC
