@@ -82,4 +82,13 @@ Using URL2PNG Tool to capture the screen shot of that site
 
 Answer: Blog has been removed
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Resource Development | T1583.001 | **Acquire Infrastructure: Domains** |
+| Initial Access | T1566.002 | **Phishing: Spearphishing Link** |
+
+### DONE BY
+
+#### RUTHRAN-SEC
