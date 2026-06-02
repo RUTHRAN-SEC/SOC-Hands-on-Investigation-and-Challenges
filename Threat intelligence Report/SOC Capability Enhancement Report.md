@@ -135,4 +135,16 @@ Search for the word “Red Teaming”
 
 Answer: Adversary Emulation
 
-## Done By RUTHRAN-SEC
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1598 | Phishing for Information |
+| Resource Development | T1583.001 | Acquire Infrastructure: Domains |
+| Initial Access | T1566.002 | Phishing: Spearphishing Link |
+| Credential Access | T1056 | Input Capture (Credential Harvesting Attempt) |
+| Collection | T1005 | Data from Local System (attempted credential collection) |
+
+### DONE BY
+
+#### RUTHRAN-SEC
