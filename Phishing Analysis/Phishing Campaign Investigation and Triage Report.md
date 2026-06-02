@@ -92,4 +92,13 @@ Search for the word “Facebook” to find the Username
 
 Answer: *amir.boyka.7*
 
-### Done By Ruthran-sec
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Resource Development | T1583.001 | **Acquire Infrastructure: Domains** |
+| Initial Access | T1566.002 | **Phishing: Spearphishing Link** |
+
+### DONE BY
+
+#### RUTHRAN-SEC
