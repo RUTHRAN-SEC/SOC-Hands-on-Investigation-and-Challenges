@@ -117,6 +117,36 @@ Answer: hxxps[://]gogohid[.]comdef
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | T1055 | Process Injection |
+| Execution | T1218 | System Binary Proxy Execution |
+| Persistence | T1547 | Boot or Logon Autostart Execution |
+| Privilege Escalation | T1055 | Process Injection |
+| Defense Impairment | T1027 | Obfuscated Files or Information |
+| Credential Access | - | - |
+| Discovery | T1082 | System Information Discovery |
+| Discovery | T1016 | System Network Configuration Discovery |
+| Discovery | T1083 | File and Directory Discovery |
+| Lateral Movement | - | - |
+| Collection | T1005 | Data from Local System |
+| Command and Control | T1071.001 | Application Layer Protocol: Web Protocols |
+| Command and Control | T1105 | Ingress Tool Transfer |
+| Command and Control | T1573 | Encrypted Channel |
+| Exfiltration | T1041 | Exfiltration Over C2 Channel |
+| Impact | - | - |
+
+## Author
+
+### RUTHRAN-SEC
+
+
+
 ## Author
 
 ### RUTHRAN-SEC
