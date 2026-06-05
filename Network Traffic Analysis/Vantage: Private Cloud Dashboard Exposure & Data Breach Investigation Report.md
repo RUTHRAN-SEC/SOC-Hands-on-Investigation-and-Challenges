@@ -328,6 +328,25 @@ Answer: T1136.003
 
 <img width="601" height="225" alt="Screenshot 2026-03-28 205100" src="https://github.com/user-attachments/assets/23f36923-4322-4d3e-8db5-5f1db8e9ca7c" />
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1595.001, T1595.003 | Active Scanning, Wordlist Scanning |
+| Resource Development | - | - |
+| Initial Access | T1078 | Valid Accounts |
+| Execution | - | - |
+| Persistence | T1136.003 | Cloud Account |
+| Privilege Escalation | T1098 | Account Manipulation |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | T1087.004, T1526 | Cloud Account Discovery, Cloud Service Discovery |
+| Lateral Movement | - | - |
+| Collection | T1213 | Data from Information Repositories |
+| Command and Control | - | - |
+| Exfiltration | T1537 | Transfer Data to Cloud Account |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
