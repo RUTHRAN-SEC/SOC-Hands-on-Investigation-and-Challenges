@@ -141,6 +141,29 @@ Answer: passwd
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1190 | Exploit Public-Facing Application |
+| Execution | T1059.003 | Command and Scripting Interpreter: Unix Shell |
+| Persistence | T1505.003 | Server Software Component: Web Shell |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1003.008 | OS Credential Dumping: /etc/passwd and /etc/shadow |
+| Discovery | T1082 | System Information Discovery |
+| Discovery | T1033 | System Owner/User Discovery |
+| Discovery | T1083 | File and Directory Discovery |
+| Discovery | T1614 | System Location Discovery |
+| Lateral Movement | - | - |
+| Collection | T1005 | Data from Local System |
+| Command and Control | T1105 | Ingress Tool Transfer |
+| Command and Control | T1071.001 | Application Layer Protocol: Web Protocols |
+| Exfiltration | T1041 | Exfiltration Over C2 Channel |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
