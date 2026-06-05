@@ -188,6 +188,25 @@ In the Network Sections contains the details about telegram id
 <img width="960" height="472" alt="Screenshot 2026-03-21 124447" src="https://github.com/user-attachments/assets/ce9c9a61-d01c-4aa8-a318-b3af43d16ecc" />
 Answer: bot5610920260
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | T1583.001, T1584.001 | Acquire Infrastructure: Domains, Compromise Infrastructure: Domains |
+| Initial Access | T1566.002 | Phishing: Spearphishing Link |
+| Execution | T1059.001, T1106 | PowerShell, Native API |
+| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | T1071.001, T1105 | Application Layer Protocol: Web Protocols, Ingress Tool Transfer |
+| Exfiltration | T1102.002 | Bidirectional Communication |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
