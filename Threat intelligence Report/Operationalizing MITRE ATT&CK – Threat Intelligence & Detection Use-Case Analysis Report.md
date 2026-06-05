@@ -114,6 +114,25 @@ Monitor newly created logons and credentials used in events and review for discr
 
 Answer: Monitor newly created logons and credentials used in events and review for discrepancies
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | TA0001 | Initial Access |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1550.002 | Pass the Hash |
+| Discovery | T1538 | Cloud Service Dashboard |
+| Lateral Movement | T1550.002 | Pass the Hash |
+| Collection | - | - |
+| Command and Control | T1571 | Non-Standard Port |
+| Exfiltration | - | - |
+| Impact | T1531 | Account Access Removal |
+
 ## Author
 
 ### RUTHRAN-SEC
