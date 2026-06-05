@@ -224,6 +224,28 @@ Answer: The Mob Museum
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1636 | Protected User Data Discovery |
+| Discovery | T1420 | File and Directory Discovery |
+| Collection | T1532 | Archive Collected Data |
+| Collection | T1213 | Data from Information Repositories |
+| Collection | T1636 | Protected User Data Discovery |
+| Collection | T1430 | Location Tracking |
+| Collection | T1439 | Stored Application Data |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
