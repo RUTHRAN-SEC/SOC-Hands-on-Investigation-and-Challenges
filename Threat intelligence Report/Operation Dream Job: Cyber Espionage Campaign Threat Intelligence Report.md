@@ -256,6 +256,25 @@ Answer: hxxps[://]markettrendingcenter[.]com/lk_job_oppor[.]docx
 
 <img width="482" height="188" alt="Screenshot 2026-04-21 124221" src="https://github.com/user-attachments/assets/df3aa888-4be0-4078-a4ab-69c679fd43a3" />
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | T1218.010, T1218.011, T1106 | Regsvr32, Rundll32, Native API |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | T1497.003 | Time Based Checks |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | T1534 | Internal Spearphishing |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
