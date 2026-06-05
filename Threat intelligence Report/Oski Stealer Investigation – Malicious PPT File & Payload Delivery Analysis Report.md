@@ -119,6 +119,25 @@ Answer: 5
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1566.001 | Spearphishing Attachment |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1555 | Credentials from Password Stores |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | T1070.004 | File Deletion |
+
 ## Author
 
 ### RUTHRAN-SEC
