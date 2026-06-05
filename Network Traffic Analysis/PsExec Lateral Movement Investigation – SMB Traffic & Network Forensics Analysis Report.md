@@ -167,6 +167,25 @@ Answer: Marketing-PC
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | T1569.002 | System Services (PsExec) |
+| Persistence | T1543.003 | Windows Service |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1550.002 | Use of Valid Accounts (Pass-the-Hash / NTLM Authentication) |
+| Discovery | - | - |
+| Lateral Movement | T1021.002 | SMB/Windows Admin Shares (PsExec) |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
