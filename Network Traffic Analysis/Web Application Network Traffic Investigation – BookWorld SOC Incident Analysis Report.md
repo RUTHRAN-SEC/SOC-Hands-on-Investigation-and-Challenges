@@ -174,6 +174,25 @@ Filter:
 
 Answer: NVri2vhp.php
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1595.001, T1595.003 | Active Scanning, Wordlist Scanning |
+| Resource Development | - | - |
+| Initial Access | T1190, T1078 | Exploit Public-Facing Application, Valid Accounts |
+| Execution | T1505.003 | Web Shell |
+| Persistence | T1505.003 | Web Shell |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | T1087 | Account Discovery |
+| Lateral Movement | - | - |
+| Collection | T1213 | Data from Information Repositories |
+| Command and Control | T1505.003 | Web Shell |
+| Exfiltration | T1041 | Exfiltration Over C2 Channel |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
