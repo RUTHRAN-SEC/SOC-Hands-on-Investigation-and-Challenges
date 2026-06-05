@@ -180,6 +180,24 @@ Decrypting [ Tender.pdf.micro ] - OK and DELETED Encrypted File
 Answer: `BTLO-T3nd3r-Fl@g`
 
 ---
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1566.001 | Spearphishing Attachment |
+| Execution | T1059.005 | Visual Basic |
+| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1555.003 | Credentials from Web Browsers |
+| Discovery | T1083 | File and Directory Discovery |
+| Lateral Movement | T1021.001 | Remote Services: SMB/Windows Admin Shares |
+| Collection | T1005 | Data from Local System |
+| Command and Control | T1071.001 | Application Layer Protocol: Web Protocols |
+| Exfiltration | T1041 | Exfiltration Over C2 Channel |
+| Impact | T1486 | Data Encrypted for Impact |
 
 ## Author
 
