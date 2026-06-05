@@ -144,9 +144,3 @@ Answer: hxxps[://]gogohid[.]comdef
 ## Author
 
 ### RUTHRAN-SEC
-
-
-
-## Author
-
-### RUTHRAN-SEC
