@@ -97,6 +97,25 @@ Answer: Option 4
 
 ---
 
-## Author
+# MITRE ATT&CK Mapping
 
-### RUTHRAN-SEC
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1083 | File and Directory Discovery |
+| Resource Development | - | - |
+| Initial Access | T1190 | Exploit Public-Facing Application |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | T1548.001 | Setuid and Setgid |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | T1046 | Network Service Discovery |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+### DONE BY
+
+#### RUTHRAN-SEC
