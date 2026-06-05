@@ -171,6 +171,25 @@ Answer: 34707
 
 <img width="597" height="228" alt="Screenshot 2026-02-24 203127" src="https://github.com/user-attachments/assets/c5592510-30d4-4175-8546-28fffa65c610" />
 
-## Author
+# MITRE ATT&CK Mapping
+| ATT&CK Stage         | Technique ID | Technique       |
+| -------------------- | ------------ | --------------- |
+| Reconnaissance       | T1595.001    | Active Scanning |
+| Resource Development | -            | -               |
+| Initial Access       | T1110        | Brute Force     |
+| Execution            | -            | -               |
+| Persistence          | -            | -               |
+| Privilege Escalation | -            | -               |
+| Defense Impairment   | -            | -               |
+| Credential Access    | -            | -               |
+| Discovery            | -            | -               |
+| Lateral Movement     | -            | -               |
+| Collection           | -            | -               |
+| Command and Control  | -            | -               |
+| Exfiltration         | -            | -               |
+| Impact               | -            | -               |
 
-### RUTHRAN-SEC
+### DONE BY
+
+#### RUTHRAN-SEC
+
