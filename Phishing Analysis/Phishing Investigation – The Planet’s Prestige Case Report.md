@@ -1,3 +1,5 @@
+# Phishing Investigation – The Planet’s Prestige Case
+
 ## Blue Team Online Lab
 
 ### Tools Used: Thunderbird, Text Editor
@@ -95,5 +97,24 @@ Done OSINT on each domain in the email. Used VirusTotal
 
 <img width="960" height="475" alt="Screenshot 2026-02-14 192217" src="https://github.com/user-attachments/assets/b7079a1a-1566-4813-8e19-983109b0dccb" />
 
-
 Answer: pashter.com
+
+| ATT&CK Stage         | Technique ID | Technique                          |
+| -------------------- | ------------ | ---------------------------------- |
+| Reconnaissance       | -            | -                                  |
+| Resource Development | T1583.001    | Acquire Infrastructure: Domains    |
+| Initial Access       | T1566.001    | Phishing: Spearphishing Attachment |
+| Execution            | -            | -                                  |
+| Persistence          | -            | -                                  |
+| Privilege Escalation | -            | -                                  |
+| Defense Impairment   | -            | -                                  |
+| Credential Access    | -            | -                                  |
+| Discovery            | T1082        | System Information Discovery       |
+| Lateral Movement     | -            | -                                  |
+| Collection           | T1213        | Data from Information Repositories |
+| Command and Control  | T1583.001    | Acquire Infrastructure: Domains    |
+| Exfiltration         | -            | -                                  |
+| Impact               | -            | -                                  |
+
+### DONE BY 
+#### RUTHRAN-SEC
