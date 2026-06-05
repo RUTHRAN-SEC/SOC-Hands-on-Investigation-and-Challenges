@@ -131,6 +131,24 @@ On the packet
 Answer: AccountingPC
 
 ---
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1557.001 | LLMNR/NBT-NS Poisoning and SMB Relay |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1557.001, T1110.002 | LLMNR/NBT-NS Poisoning and SMB Relay, Password Cracking |
+| Discovery | - | - |
+| Lateral Movement | T1021.002 | SMB/Windows Admin Shares |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
 
 ## Author
 
