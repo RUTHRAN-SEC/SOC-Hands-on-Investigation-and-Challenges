@@ -224,6 +224,25 @@ cat www-access.log | awk '{print $12}' | uniq | sort
 <img width="960" height="449" alt="Screenshot 2026-03-07 192430" src="https://github.com/user-attachments/assets/32a0c75e-c38e-47a8-b8d4-bfea0c15aad6" />
 Answer: pxyscand/2.1
 
-## Author
+# MITRE ATT&CK Mapping
 
+| ATT&CK Stage         | Technique ID         | Technique                          |
+| -------------------- | -------------------- | ---------------------------------- |
+| Reconnaissance       | T1595.001, T1595.003 | Active Scanning, Wordlist Scanning |
+| Resource Development | -                    | -                                  |
+| Initial Access       | T1110.001, T1078     | Password Guessing, Valid Accounts  |
+| Execution            | T1059.004            | Unix Shell                         |
+| Persistence          | T1136.001            | Local Account                      |
+| Privilege Escalation | -                    | -                                  |
+| Defense Impairment   | T1562.004            | Disable or Modify System Firewall  |
+| Credential Access    | T1110.001            | Password Guessing                  |
+| Discovery            | -                    | -                                  |
+| Lateral Movement     | -                    | -                                  |
+| Collection           | -                    | -                                  |
+| Command and Control  | -                    | -                                  |
+| Exfiltration         | -                    | -                                  |
+| Impact               | -                    | -                                  |
+
+
+## Author
 ### RUTHRAN-SEC
