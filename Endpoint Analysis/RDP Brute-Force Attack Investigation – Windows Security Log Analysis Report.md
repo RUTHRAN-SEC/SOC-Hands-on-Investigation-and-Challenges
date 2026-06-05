@@ -170,6 +170,25 @@ Answer: 49162-65534
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1110.001 | Password Guessing |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | T1110.001 | Password Guessing |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
