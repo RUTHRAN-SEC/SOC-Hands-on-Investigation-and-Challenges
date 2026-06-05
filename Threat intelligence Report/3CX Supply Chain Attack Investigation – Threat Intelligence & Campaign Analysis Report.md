@@ -196,6 +196,25 @@ Answer: Lazarus
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | T1587 | Develop Capabilities |
+| Initial Access | T1195 | Supply Chain Compromise |
+| Execution | T1059 | Command and Scripting Interpreter |
+| Persistence | T1574 | Hijack Execution Flow |
+| Privilege Escalation | T1574 | Hijack Execution Flow |
+| Defense Impairment | T1497 | Virtualization/Sandbox Evasion |
+| Credential Access | - | - |
+| Discovery | T1497 | Virtualization/Sandbox Detection |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | T1071 | Application Layer Protocol (Encrypted C2 via DLL) |
+| Exfiltration | - | - |
+| Impact | - | - |
+
 ## Author
 
 ### RUTHRAN-SEC
