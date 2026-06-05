@@ -234,6 +234,31 @@ Answer: APT28
 
 <img width="524" height="178" alt="Screenshot 2026-04-25 151109" src="https://github.com/user-attachments/assets/61a4bb48-0e49-4f1a-8bd0-cd987f882dcd" />
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1110 | Brute Force |
+| Execution | T1059.005 | Visual Basic |
+| Execution | T1059.001 | PowerShell |
+| Execution | T1059.003 | Windows Command Shell |
+| Execution | T1106 | Native API |
+| Persistence | T1505.003 | Web Shell |
+| Persistence | T1543.003 | Windows Service |
+| Privilege Escalation | T1078 | Valid Accounts |
+| Defense Impairment | T1562.001 | Disable or Modify Tools |
+| Credential Access | T1003.001 | LSASS Memory |
+| Credential Access | T1110 | Brute Force |
+| Discovery | T1018 | Remote System Discovery |
+| Lateral Movement | T1021.002 | SMB/Windows Admin Shares |
+| Lateral Movement | T1570 | Lateral Tool Transfer |
+| Collection | - | - |
+| Command and Control | T1090 | Proxy |
+| Exfiltration | - | - |
+| Impact | T1485 | Data Destruction |
+
 ## Author
 
 ### RUTHRAN-SEC
