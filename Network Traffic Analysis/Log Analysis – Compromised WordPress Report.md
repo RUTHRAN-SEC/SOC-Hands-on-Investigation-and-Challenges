@@ -139,3 +139,26 @@ cat access.log | grep 'fr34k.php' | tail
 <img width="957" height="376" alt="Screenshot 2026-02-14 144639" src="https://github.com/user-attachments/assets/f8de1368-f3d7-4cd5-99b6-592ec9148140" />
 
 Answer: 404
+
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | T1595.003 | Active Scanning: Wordlist Scanning |
+| Resource Development | - | - |
+| Initial Access | T1190 | Exploit Public-Facing Application |
+| Execution | T1505.003 | Web Shell |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | - | - |
+
+## DONE BY
+
+### RUTHRAN-SEC
