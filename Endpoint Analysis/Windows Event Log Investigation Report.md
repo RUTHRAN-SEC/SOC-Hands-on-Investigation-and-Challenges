@@ -231,6 +231,25 @@ Answer: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
 
 <img width="590" height="227" alt="Screenshot 2026-02-26 220214" src="https://github.com/user-attachments/assets/667c1ca8-5b0c-4b09-a651-1afcf902941c" />
 
-## Author
+# MITRE ATT&CK Mapping
 
-### RUTHRAN-SEC
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1078 | Valid Accounts |
+| Execution | T1059.001 | PowerShell |
+| Persistence | T1053.005 | Scheduled Task |
+| Privilege Escalation | - | - |
+| Defense Impairment | T1562.001 | Impair Defenses |
+| Credential Access | - | - |
+| Discovery | T1082 | System Information Discovery |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | T1573 | Encrypted Channel |
+| Exfiltration | - | - |
+| Impact | T1070.001 | Clear Windows Event Logs |
+
+### DONE BY
+
+#### RUTHRAN-SEC
