@@ -232,6 +232,31 @@ Answer: T1041
 
 <img width="574" height="177" alt="Screenshot 2026-04-21 154200" src="https://github.com/user-attachments/assets/3f0c6089-00fa-4298-98c3-19e89fff80d6" />
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | T1566.001 | Spearphishing Attachment |
+| Initial Access | T1566.002 | Spearphishing Link |
+| Execution | T1204.002 | User Execution: Malicious File |
+| Execution | T1059.001 | PowerShell |
+| Execution | T1106 | Native API |
+| Persistence | T1547.001 | Registry Run Keys / Startup Folder |
+| Defense Impairment | T1497.003 | Time Based Checks |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | T1534 | Internal Spearphishing |
+| Collection | T1005 | Data from Local System |
+| Command and Control | T1071.001 | Application Layer Protocol: Web Protocols |
+| Exfiltration | T1041 | Exfiltration Over C2 Channel |
+| Impact | - | - |
+
+## Author
+
+### RUTHRAN-SEC
+
 ## Author
 
 ### RUTHRAN-SEC
