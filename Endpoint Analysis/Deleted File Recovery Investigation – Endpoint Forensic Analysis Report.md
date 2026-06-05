@@ -169,6 +169,25 @@ If i have done strings on first recover.dd file means we can complete this easil
 <img width="960" height="362" alt="Screenshot 2026-03-21 152634" src="https://github.com/user-attachments/assets/8207b87c-4600-4a42-82ab-4ce6d14dc91f" />
 Answer: SBTCertifications.mp4
 
+# MITRE ATT&CK Mapping
+
+| ATT&CK Stage | Technique ID | Technique |
+| --- | --- | --- |
+| Reconnaissance | - | - |
+| Resource Development | - | - |
+| Initial Access | - | - |
+| Execution | - | - |
+| Persistence | - | - |
+| Privilege Escalation | - | - |
+| Defense Impairment | - | - |
+| Credential Access | - | - |
+| Discovery | - | - |
+| Lateral Movement | - | - |
+| Collection | - | - |
+| Command and Control | - | - |
+| Exfiltration | - | - |
+| Impact | T1070.004 | File Deletion |
+
 ## Author
 
 ### RUTHRAN-SEC
